@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contact{
+    padding: 40px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-img{
+    width: 50%;
+}
+.contact-img h2{
+    font-size: 40px;
+
+}
+.contact-img p{
+    font-size: 20px;
+    padding-top: 20px ;
+}
+.contact-img img{
+    width: 100%;
+}
+
+.contact-frm{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+form{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+    padding: 10px 0;
+}
+.form-control input{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 8px;
+}
+.form-control input:focus{
+    outline: none;
+}
+.form-control textarea{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 8px;
+}
+.form-control textarea:focus{
+    outline: none;
+}
